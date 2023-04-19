@@ -4,7 +4,7 @@
 // не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-// Метод вывода массива
+// Метод вывода массива на экран
 void PrintArr(string[] arr)
 {
     Console.Write("[");
@@ -28,7 +28,6 @@ string[] ThreeCharFilter(string[] arr)
         if (arr[c].Length <= 3)
             count++;
     }
-
     // Создаем новый массив длины count и заполняем его
     string[] result = new string[count];
     int shift = 0;
